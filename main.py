@@ -16,7 +16,7 @@ def process_file(event, context):
         content = blob.download_as_text()
         print(f"File content: {content}")
     
-    return f"Processed {file_name} successfully!"
+    return f"Processed {file_name} successfully! Adolfo-Adrian-Alex"
 from flask import Request
 
 def http_hello_world(request: Request):
